@@ -11,7 +11,7 @@ import { store } from './store/store';
 
 /**setup axios */
 axios.defaults.baseURL = "https://api.themoviedb.org/3"
-axios.defaults.headers.common['Authorization'] = `Bearer ${process.env.REACT_APP_ACCESS_TOKEN}`
+axios.defaults.headers.common['Authorization'] = `Bearer ${process.env.e547e17d4e91f3e62a571655cd1ccaff}`
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
